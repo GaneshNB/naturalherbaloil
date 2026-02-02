@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Traditional Natural Herbal Oil</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #eef4ea;
+    color: #243424;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(
+        rgba(25, 70, 45, 0.7),
+        rgba(25, 70, 45, 0.7)
+    ),
+    url("benefits.jpg") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* SECTION */
+section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    color: #2f6b4f;
+    margin-bottom: 70px;
+}
+
+/* POSTER BLOCK */
+.poster {
+    display: flex;
+    justify-content: center;
+}
+
+.poster img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 24px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+/* SPLIT */
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.split img {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+.split p {
+    font-size: 19px;
+    line-height: 1.9;
+}
+
+/* HIGHLIGHT */
+.highlight {
+    background: linear-gradient(120deg, #f0f7f1, #ffffff);
+}
+
+/* VIDEO */
+.video-box {
+    display: flex;
+    justify-content: center;
+}
+
+.video-box iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 480px;
+    border-radius: 26px;
+    border: none;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+footer {
+    background: #1f4032;
+    color: #dce6df;
+    text-align: center;
+    padding: 26px;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+    .split {
+        grid-template-columns: 1fr;
+    }
+    .video-box iframe {
+        height: 300px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Traditional Natural Herbal Oil</h1>
+    <p>
+        Pure care from nature for stronger, healthier, and naturally beautiful hair.
+        Crafted with traditional wisdom to nourish both hair and scalp.
+    </p>
+</div>
+
+<!-- ADVERTISEMENT POSTER -->
+<section class="highlight">
+    <h2 class="section-title">Why Choose Our Herbal Oil</h2>
+    <div class="poster">
+        <img src="advertisement.jpg" alt="Herbal Oil Advertisement">
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section>
+    <h2 class="section-title">Natural Benefits</h2>
+    <div class="poster">
+        <img src="benefits.jpg" alt="Benefits of Herbal Oil">
+    </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section class="highlight">
+    <h2 class="section-title">Traditional Ingredients</h2>
+    <div class="split">
+        <p>
+            Our herbal oil is prepared using carefully selected ingredients such as
+            curry leaves, karpooravalli, amla, eclipta prostrata, hibiscus,
+            and pure coconut oil. Each ingredient plays a vital role in supporting
+            scalp comfort, hair strength, and overall hair wellness.
+        </p>
+        <img src="ingredients.jpg" alt="Herbal Ingredients">
+    </div>
+</section>
+
+<!-- HOW TO USE -->
+<section>
+    <h2 class="section-title">How to Use</h2>
+    <div class="split">
+        <img src="how-to-use.jpg" alt="How to use herbal oil">
+        <p>
+            Apply the oil gently to the scalp and massage with your fingertips.
+            Leave it on for about 30 minutes before washing with a mild shampoo.
+            Regular use helps the herbs work deeply and naturally.
+        </p>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section class="highlight">
+    <h2 class="section-title">Preparation & Tradition</h2>
+    <div class="video-box">
+        <iframe
+            src="https://www.youtube.com/embed/s5ZejW_6VRI"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+<footer>
+    © 2026 Traditional Natural Herbal Oil • Feel the Difference Naturally
+</footer>
+
+</body>
+</html>
